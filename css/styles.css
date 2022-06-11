@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    text-align: center;
+    /* font-family: verdana, sans-serif; */
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: 'Merriweather', serif;
+}
+
+/* font-size 100% is 16px 1em is 16px*/
+h1{
+    font-family: 'Sacramento', cursive;       
+    font-size: 5.625rem;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;       
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;       
+}
+
+
+.head-image {
+width:500px;
+height:500px
+ 
+}
+.top-container {
+    background-color: #DAEAF1;
+    height: 540px;
+
+
+
+}
+
+.top-h1{
+        margin-top: 8px;
+        margin-bottom: 0;
+        font-size: 50px
+        /* position: relative;
+        top:15%; */
+
+
+}
+
+.top-p{
+   
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    top:20px;
+
+}
+
+.middle-container {
+ background-color: #f5faf6;
+}
+
+.bottom-container {
+  background-color: #DAEAF1;
+}
+
+.top-cloud {
+    position: absolute;
+    top:50px;
+    right:15%;
+   
+}
+
+.bottom-cloud{
+    position:absolute;
+    top:200px;
+    left:15%;
+}
+
+.mountain {
+    height: 300px;
+    position:absolute;
+    bottom: 0;
+    right: 30%;
+}
+
+.get-in-touch{
+    padding-top: 10px;
+}
+
+.copyright{
+    padding-bottom: 10px;
+}
+
+.btn{
+    background-color: green;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+     
+}
+
+.footer-container{
+    padding-top: 15px;
+}
+.footer-link{
+    margin:20px 5px 0 5px;
+    margin-top: 10px;
+    
+     
+}
+
+.my-skills{
+    padding-top: 10px;
+}
+
+/* Tablet*/
+@media (min-width: 501px) and (max-width: 768px)  {
+    .top-container {
+         
+        height: 400px;
+    
+    }
+    .head-image {
+        width:270px;
+        height:270px
+         
+        }
+    
+    .top-h1{
+            font-size: 35px
+  
+    }
+
+    p{
+        font-size: 12.5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-container {
+        height: 420px;  
+    }
+    .head-image {
+        width:180px;
+        height:180px
+        }
+    .top-h1{
+            font-size: 30px
+  
+    }
+    p{
+        font-size: 11px;
+    }
+
+}
